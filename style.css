@@ -141,6 +141,7 @@ ul li a{
 .experience-details{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 130px;
 }
 .experience-text{
     width: 50%;
@@ -196,6 +197,45 @@ ul li a{
 }
 
 /* Experience Section End */
+
+
+
+/* Company Summary Section Start */
+
+.company-summary-details .summary-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.company-summary-details .summary-desc{
+    line-height: 26px;
+    color: #727272;
+    margin: 24px 0 100px 0;
+}
+.summary-items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.summary-item{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    height: 240px;
+    width: 240px;
+    padding: 50px 0;
+}
+.summary-item h3{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.summary-item p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+
+/* Company Summary Section End */
 
 
 
@@ -274,6 +314,13 @@ ul li a{
     }
     .experience-text .experience-title{
         font-size: 40px;
+    }
+
+
+    .summary-items{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 
 }
