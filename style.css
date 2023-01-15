@@ -379,10 +379,6 @@ ul li a{
         margin-bottom: 20px;
     }
 
-
-
-
-    
     .banner-text .banner-title{
         font-size: 2.2rem;
         margin-top: 20px;
@@ -393,8 +389,6 @@ ul li a{
     .banner-details{
         padding: 40px 0;
     }
-
-
 
     .features-details{
         flex-direction: column-reverse;
@@ -437,8 +431,6 @@ ul li a{
     .experience-text .experience-title{
         font-size: 35px;
     }
-
-
     .summary-items{
         flex-direction: column;
         align-items: center;
