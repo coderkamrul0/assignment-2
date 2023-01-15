@@ -224,6 +224,17 @@ ul li a{
     width: 240px;
     padding: 50px 0;
 }
+.summary-item:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-4px);
+    
+  }
+  
+
+
+
+
+
 .summary-item h3{
     font-size: 45px;
     font-weight: 600;
@@ -234,8 +245,56 @@ ul li a{
     font-weight: 600;
     color: #727272;
 }
+.company-summary{
+    margin-bottom: 160px;
+}
 
 /* Company Summary Section End */
+
+
+
+/* Sponsor Section Start Here  */
+.sponsor-details{
+    margin-bottom: 130px;
+}
+.sponsor-text .sponsor-title{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.sponsor-text .sponsor-desc{
+    line-height: 26px;
+    color: #727272;
+    text-align: center;
+    margin: 25px 0 50px 0;
+}
+.sponsor-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sponsor-image img{
+    filter:grayscale(100%)
+}
+
+
+/* Sponsor Section End Here */
+
+
+
+/* Footer Section Start  */
+
+.footer-section{
+    text-align: center;
+    background: #FFF4E7;
+}
+.footer-text{
+    padding: 45px 0;
+    font-size: 20px;
+    color: #424242;
+}
+
+/* Footer Section End  */
 
 
 
@@ -252,6 +311,10 @@ ul li a{
     }
     .header-section{
         padding-top: 20px;
+    }
+    .header-section ul{
+        flex-direction: column;
+        align-items: center;
     }
     .header-content{
         flex-direction: column;
@@ -279,7 +342,7 @@ ul li a{
 
 
     .features-details{
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin-bottom: 60px;
     }
     .features-details .features-images{
@@ -298,6 +361,9 @@ ul li a{
     .experience-details{
         flex-direction: column-reverse;
     }
+    .feautes-btn{
+        margin-bottom: 40px;
+    }
     .experience-text{
         width: 100%;
     }
@@ -313,7 +379,7 @@ ul li a{
         display: none;
     }
     .experience-text .experience-title{
-        font-size: 40px;
+        font-size: 35px;
     }
 
 
@@ -321,6 +387,18 @@ ul li a{
         flex-direction: column;
         align-items: center;
         gap: 20px;
+    }
+
+    .sponsor-image{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .sponsor-text .sponsor-title{
+        font-size: 35px;
+    }
+    .sponsor-details{
+        display: flex;
+        flex-direction: column;
     }
 
 }
