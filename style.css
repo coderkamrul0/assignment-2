@@ -403,7 +403,7 @@ ul li a{
     .features-details .features-images{
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
     .features-details .features-text{
         width: 100%;
@@ -414,7 +414,8 @@ ul li a{
     }
 
     .experience-details{
-        flex-direction: column-reverse;
+        flex-direction: column;
+        margin-bottom: 50px;
     }
     .feautes-btn{
         margin-bottom: 40px;
@@ -424,7 +425,7 @@ ul li a{
     }
     .experience-details .experience-image{
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
     .experience-details .experience-image img{
         display: block;
@@ -442,6 +443,16 @@ ul li a{
         flex-direction: column;
         align-items: center;
         gap: 20px;
+    }
+    .company-summary{
+        margin-bottom: 50px;
+    }
+    .company-summary .summary-title{
+        text-align: center;
+    }
+    .company-summary .summary-desc{
+        text-align: center;
+        margin-bottom: 50px;
     }
 
     .sponsor-image{
@@ -461,6 +472,9 @@ ul li a{
         flex-direction: column;
         align-items: center;
         gap: 15px;
+    }
+    .newsletter-text h3{
+        font-size: 30px;
     }
 
 }
